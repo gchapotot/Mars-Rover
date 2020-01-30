@@ -1,4 +1,4 @@
-#Mars Rover
+# Mars Rover
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the
@@ -17,7 +17,7 @@ degrees left or right respectively, without moving from its current spot.
 'M' means move forward one grid point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-##INPUT
+## INPUT
 The first line of input is the upper-right coordinates of the plateau, the
 lower-left coordinates are assumed to be 0,0.
 
@@ -31,10 +31,10 @@ corresponding to the x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover
 won't start to move until the first one has finished moving.
 
-##OUTPUT
+## OUTPUT
 The output for each rover should be its final co-ordinates and heading.
 
-##INPUT AND OUTPUT
+## INPUT AND OUTPUT
 _Test Input :_
 
 5 5  
@@ -48,7 +48,7 @@ _Expected Output:_
 1 3 N  
 5 1 E
 
-##COMMAND LINE
+## COMMAND LINE
 The program will be runned with this command line:
 
- 	_java -jar rover.jar input.txt_
+ 	java -jar rover.jar input.txt
